@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class ExpressError extends Error {
     constructor(statusCode, message) {
         super();
@@ -7,7 +7,6 @@ class ExpressError extends Error {
     }
 }
 
-=======
 class ExpressError extends Error {
     constructor(statusCode, message) {
         super();
@@ -16,5 +15,4 @@ class ExpressError extends Error {
     }
 }
 
->>>>>>> e7365edfee5f6e1e8b983133e05e7b3a72ae3902
 module.exports = ExpressError;
