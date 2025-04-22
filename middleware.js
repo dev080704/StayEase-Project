@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const Listing = require("./models/listing.js");
 const Review = require("./models/review.js");
 const ExpressError = require("./utils/expressError.js");
@@ -59,7 +59,7 @@ module.exports.isReviewAuthor = async (req, res, next) => {
       return res.redirect(`/listings/${id}`);
     }
     next();
-=======
+  }
 const Listing = require("./models/listing.js");
 const Review = require("./models/review.js");
 const ExpressError = require("./utils/expressError.js");
@@ -120,5 +120,5 @@ module.exports.isReviewAuthor = async (req, res, next) => {
       return res.redirect(`/listings/${id}`);
     }
     next();
->>>>>>> e7365edfee5f6e1e8b983133e05e7b3a72ae3902
+
 };
